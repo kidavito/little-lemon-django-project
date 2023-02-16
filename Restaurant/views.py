@@ -18,7 +18,6 @@ def index(request):
     return render(request, 'index.html', {})
 
 class MenuItemsView(generics.ListCreateAPIView):
-    permission_classes = [IsAuthenticated]
     queryset = Menu.objects.all()
     serializer_class = MenuItemSerializer
     # def get_permissions(self):
@@ -48,6 +47,7 @@ class SingleMenuItemView(generics.RetrieveUpdateDestroyAPIView):
 #             return Response({"status": "success", "data": serializer.data})
 
 class BookingViewSet(viewsets.ModelViewSet):
+    permission_classes = [IsAuthenticated]
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
 
