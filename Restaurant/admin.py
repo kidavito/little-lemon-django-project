@@ -8,3 +8,7 @@ admin.site.register(Booking)
 # Superuser account:
 # ID: admin
 # Password: password
+
+# User1:
+# ID: user1
+# Password: Password123!
