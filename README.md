@@ -1,23 +1,24 @@
-# Superuser Account
-## Username:
+# Little Lemon Django Project
+## Superuser Account
+### Username:
 admin
 
-## Password:
+### Password:
 password
 
-# Endpoints:
-## Menu:
+## Endpoints:
+### Menu:
 http://localhost:8000/menu/
 http://localhost:8000/restaurant/menu/
 http://localhost:8000/api/menu/
 
-## Booking:
+### Booking:
 http://localhost:8000/restaurant/booking/tables
 http://localhost:8000/api/booking/tables
 
-# Authentications
-## Register New Account:
+## Authentications
+### Register New Account:
 http://localhost:8000/auth/users/
 
-## Request Token:
+### Request Token:
 http://localhost:8000/auth/token/login/
