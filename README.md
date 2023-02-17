@@ -7,12 +7,16 @@ admin
 password
 
 ## Endpoints:
-### Menu:
+### Menu (use browser to see the required list):
 http://localhost:8000/menu/<br/>
 http://localhost:8000/restaurant/menu/<br/>
 http://localhost:8000/api/menu/<br/>
 
-### Booking:
+### Book a New Table (use browser to see the required list):
+http://localhost:8000/restaurant/booking/
+http://localhost:8000/api/booking/
+
+### See Booking Tables:
 http://localhost:8000/restaurant/booking/tables<br/>
 http://localhost:8000/api/booking/tables<br/>
 
