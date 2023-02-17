@@ -24,10 +24,19 @@ router.register(r'tables', views.BookingViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # Direct access path:
     path('', include('Restaurant.urls')),
+
+    # Access via "restaurant" path:
     path('restaurant/',include('Restaurant.urls')),
     path('restaurant/booking/', include(router.urls)),
 
+    # Access via "api" path:
+    path('api/',include('Restaurant.urls')),
+    path('api/booking/', include(router.urls)),
+
+    # Authetications:
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
 
