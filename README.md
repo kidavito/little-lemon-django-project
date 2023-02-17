@@ -1,5 +1,5 @@
 # Little Lemon Django Project
-### Note: I'm using "pipenv".
+### Note: I'm using "pipenv" on python v3.11.
 ## Superuser Account
 ### Username:
 admin
