@@ -1,3 +1,3 @@
-# Superuser account:
-# ID: admin
-# Password: password
+# Superuser Account
+Username: admin
+Password: password
