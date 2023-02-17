@@ -21,7 +21,7 @@ http://localhost:8000/restaurant/booking/tables<br/>
 http://localhost:8000/api/booking/tables<br/>
 
 ## Authentications
-### Register New Account:
+### Register a New User (use browser to see the required list):
 http://localhost:8000/auth/users/<br/>
 
 ### Request Token:
